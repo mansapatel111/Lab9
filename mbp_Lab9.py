@@ -4,6 +4,12 @@ def encoder(string):
         i += 3
     return string
 
+def decoder(string):
+    for i in string:
+        i = int(i)
+        i -= 3
+    return string
+
 
 
 def main():
